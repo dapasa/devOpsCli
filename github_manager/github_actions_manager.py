@@ -58,9 +58,4 @@ class GitHubActionsManager:
             
             
 if __name__ == '__main__':
-    print("")
-    # ga = GitHubActionsManager('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', 'trading-inc', 'prototype-v2', 'add-Infra', 'docker-image.yml')
-    # try:
-    #   print(ga.get_workflow_name())
-    # except ResourceNotFoundError as e:
-    #   print(e)
+   pass

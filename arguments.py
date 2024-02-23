@@ -8,7 +8,6 @@ def arguments():
     aws_parser.add_argument('-p','--profile',  help='Check Aws profile')
     aws_parser.add_argument('-a','--add',  help='Add Aws profile')
     aws_parser.add_argument('-r','--read',  help='Read Aws profile')
-    aws_parser.add_argument('-r','--read',  help='Read Aws profile')
 
     github_parser = subparsers.add_parser('github', help="Manage github repository")
     github_parser.add_argument('-d', '--dispatch', help='Dispatch Action Workflow')
